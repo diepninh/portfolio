@@ -19,7 +19,16 @@
         Professional background
       </h2>
       <br />
-      <p class="lg:text-lg text-sm text-justify leading-6">Vue , react</p>
+      <p class="lg:text-lg text-sm text-justify leading-6">
+        I have 3 years of experience in frontend programming with javascript
+        language and working with frameworks and libraries such as: React and
+        Vue ... At the same time, in the process of working, I also have many
+        opportunities to be exposed to new developers. new technology and many
+        more challenges .
+        <br />
+        I have the ability to learn quickly, work in a team and have a high
+        sense of responsibility for work.
+      </p>
       <br />
       <p class="lg:text-lg text-sm text-justify leading-6">
         <!-- &nbsp;&nbsp;&nbsp;&nbsp; -->

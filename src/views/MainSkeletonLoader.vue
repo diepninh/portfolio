@@ -10,7 +10,7 @@
     >
       <div v-if="isLoadingRendered">
         <section class="flex flex-col gap-4 w-full">
-          <div class="sm:w-48 w-32 h-6 mb-6 skeleton-title-bar-i" />
+          <div class="sm:w-48 w-32 h-3 mb-6 skeleton-title-bar-i" />
           <div class="sm:w-96 w-24 h-3 skeleton-text-bar-i" />
           <div class="sm:w-32 w-32 h-3 skeleton-text-bar-i" />
           <div class="sm:w-64 w-8 h-3 skeleton-text-bar-ii" />
@@ -18,7 +18,7 @@
         </section>
 
         <section class="flex flex-col gap-4 pt-20 w-full">
-          <div class="sm:w-64 w-24 h-6 mb-6 ml-6 skeleton-header-bar-i" />
+          <div class="sm:w-64 w-24 h-3 mb-6 ml-6 skeleton-header-bar-i" />
           <div class="sm:w-64 w-24 h-3 skeleton-text-bar-ii" />
           <div class="sm:w-96 w-32 h-3 skeleton-text-bar-i" />
           <div class="sm:w-24 w-8 h-3 skeleton-text-bar-ii" />
@@ -31,21 +31,21 @@
 </template>
 
 <script>
-import 'animate.css';
-import { ref } from 'vue';
-export default {
-	setup() {
-		const isLoadingRendered = ref(false);
-		isLoadingRendered.value = false;
-		setTimeout(() => {
-			isLoadingRendered.value = true;
-		}, 1200);
+  import 'animate.css';
+  import { ref } from 'vue';
+  export default {
+    setup() {
+      const isLoadingRendered = ref(false);
+      isLoadingRendered.value = false;
+      setTimeout(() => {
+        isLoadingRendered.value = true;
+      }, 1200);
 
-		return {
-			isLoadingRendered
-		};
-	}
-};
+      return {
+        isLoadingRendered
+      };
+    }
+  };
 </script>
 
 <style>

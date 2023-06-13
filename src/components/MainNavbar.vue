@@ -1,18 +1,22 @@
 <template>
-  <section class="pt-2 navbar fixed w-full divCenter">
-    <div class="2xl:flex flex-row py-3 px-3 hidden ml-20">
+  <section class="pt-2 navbar fixed w-full">
+    <div class="2xl:flex flex-row py-3 px-3 hidden justify-between mx-40">
       <!-- pc view port -->
-      <!-- old navbar tags xl:px-[20rem] lg:px-[14rem] md:px-[10rem] sm:px-[7rem] px-[5rem]  -->
 
       <div>
-        <h1 class="text-4xl font-bold headers">
-          <router-link to="/" @click="scrollTop">Diep Ninh</router-link>
+        <h1 class="text-2xl font-bold headers">
+          <router-link
+            to="/"
+            @click="scrollTop"
+            class="no-underline cursor-pointer"
+            >Diep Ninh</router-link
+          >
         </h1>
       </div>
-      <div class="text-2xl inline-block px-10 pt-[0.4rem]">
+      <div class="text-xl inline-block px-10 pt-[0.4rem]">
         <ul class="flex flex-row">
           <li
-            class="px-3 flex flex-row"
+            class="px-4 flex flex-row"
             v-for="(value, index) in webRoutes"
             :key="index"
           >
@@ -25,16 +29,6 @@
         </ul>
       </div>
       <!-- spacing -->
-      <div>
-        <div class="w-[30rem]"></div>
-      </div>
-      <!-- select theme icon && dropdown -->
-      <div class="rightSide flex flex-row gap-4">
-        <!-- select theme icon -->
-        <NavbarIcons :selected-icon="'themeSelector'" />
-
-        <!-- drop down section  -->
-      </div>
     </div>
 
     <!-------------------------------------------------------------------------------------->
@@ -102,10 +96,6 @@
 
     setup(props) {
       const webRoutes = {
-        contact: {
-          title: 'Contact',
-          route: '/contact'
-        },
         skills: {
           title: 'Skills',
           route: '/skills'
@@ -113,6 +103,10 @@
         works: {
           title: 'Works',
           route: '/work'
+        },
+        contact: {
+          title: 'Contact',
+          route: '/contact'
         }
       };
 

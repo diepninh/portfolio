@@ -1,7 +1,7 @@
 <template>
   <div ref="baseModel">
     <div
-      class="xl:px-[20rem] lg:px-[14rem] md:px-[10rem] sm:px-[7rem] px-[4rem]"
+      class="xl:px-[14rem] lg:px-[14rem] md:px-[10rem] sm:px-[7rem] px-[4rem]"
       :class="
         setAnimate && isThemeLoaded
           ? 'animate__animated animate__fadeInUp animate__fast'
