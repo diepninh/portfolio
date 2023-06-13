@@ -1,5 +1,5 @@
 <template>
-  <div class="divCenter pt-36"></div>
+  <div class="divCenter pt-40"></div>
 </template>
 
 <script>
