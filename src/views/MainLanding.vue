@@ -19,7 +19,7 @@
         Professional background
       </h2>
       <br />
-      <p class="lg:text-lg text-sm text-justify leading-6"></p>
+      <p class="lg:text-lg text-sm text-justify leading-6">Vue , react</p>
       <br />
       <p class="lg:text-lg text-sm text-justify leading-6">
         <!-- &nbsp;&nbsp;&nbsp;&nbsp; -->
