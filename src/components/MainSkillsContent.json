@@ -1,0 +1,65 @@
+[
+    {
+        "type": "frontend",
+        "technologies": [
+            {
+                "title": "Vue",
+                "image": "devicon-vuejs-plain"
+            },
+            {
+                "title": "Nuxt",
+                "image": "devicon-nuxtjs-plain"
+            },
+            {
+                "title": "React",
+                "image": "devicon-react-plain"
+            },
+            {
+                "title": "Next",
+                "image": "devicon-nextjs-plain"
+            },
+            {
+                "title": "Javascript (ES6)",
+                "image": "devicon-javascript-plain"
+            },
+            {
+                "title": "HTML5",
+                "image": "devicon-html5-plain"
+            },
+            {
+                "title": "CSS3",
+                "image": "devicon-css3-plain"
+            },
+            {
+                "title": "Bootstrap",
+                "image": "devicon-bootstrap-plain"
+            },
+            {
+                "title": "Tailwind",
+                "image": "devicon-tailwindcss-plain"
+            },
+            {
+                "title": "MaterialUI",
+                "image": "devicon-materialui-plain"
+            }
+        ]
+    },
+
+    {
+        "type": "tools",
+        "technologies": [
+            {
+                "title": "Git",
+                "image": "devicon-git-plain"
+            },
+            {
+                "title": "Gitlab",
+                "image": "devicon-gitlab-plain"
+            },
+            {
+                "title": "Figma",
+                "image": "devicon-figma-plain"
+            }
+        ]
+    }
+]

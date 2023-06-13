@@ -1,0 +1,16 @@
+[
+    {
+        "Image": "./assets/images/yelloop.png",
+        "Title": "Yelloop",
+        "Description": "Like facebooks this is an interactive and affiliate site for alumni. They can exchange information, interact with each other through messages.",
+        "Sidenote": "",
+        "Tags": ["Vue3", "Vuex", "Socketio", "Bootstrap 5"]
+    },
+    {
+        "Image": "./assets/images/doctors.png",
+        "Title": "Project outsource for japan",
+        "Description": "This is a job search system that matches the requirements for the medical profession, and at the same time manages the job list and allows direct communication with each other on the system.",
+        "Sidenote": "",
+        "Tags": ["NextTs", "Material UI", "Firebase", "Amplify"]
+    }
+]
