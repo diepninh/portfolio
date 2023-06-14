@@ -34,7 +34,9 @@
     <!-------------------------------------------------------------------------------------->
 
     <!-- mobile viewport -->
-    <div class="2xl:hidden flex flex-row py-3 items-center">
+    <div
+      class="2xl:hidden flex flex-row py-3 items-center justify-between mx-10"
+    >
       <div>
         <h1 class="text-3xl font-bold sm:-ml-[0px]">
           <router-link to="/" @click="scrollTop" class="scroll-smooth">
@@ -43,23 +45,7 @@
         </h1>
       </div>
 
-      <div>
-        <!-- separator -->
-        <div
-          :style="
-            windowWidth > 400
-              ? { width: windowWidth / 3 + 'px' }
-              : { width: windowWidth / 8 + 'px' }
-          "
-        />
-      </div>
-
       <div class="rightSide flex flex-row gap-4">
-        <div class="has-dpdn" v-if="windowWidth <= 1536">
-          <!-- select theme icon -->
-          <NavbarIcons :selected-icon="'themeSelector'" />
-        </div>
-
         <!-- drop down section  -->
         <div class="has-dpdn">
           <NavbarIcons
